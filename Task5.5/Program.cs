@@ -21,7 +21,7 @@ namespace Task5._5
         {
             for (int i = 0; i < arrayLength; i++)
             {
-                if (list.Contains(array[i]) == false)
+                if (list.Contains(array[i]) != true)
                 {
                     list.Add(array[i]);
                 }
