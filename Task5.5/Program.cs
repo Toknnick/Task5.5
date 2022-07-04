@@ -13,8 +13,8 @@ namespace Task5._5
             Unite(list, firstArray.Length, firstArray);
             Unite(list, secondArray.Length, secondArray);
 
-            foreach (var item in list)
-                Console.WriteLine(item);
+            foreach (var word in list)
+                Console.WriteLine(word);
         }
 
         static void Unite(List<string> list, int arrayLength, string[] array)
